@@ -31,7 +31,7 @@ conda activate miafex
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121  # adjust CUDA if needed
 pip install numpy pandas scikit-learn xgboost matplotlib tqdm pyyaml timm transformers
 ```
-### Dataset configuratioon
+### Dataset configuration
 ```bash
 ./data/your_dataset/
 ├─ train/
