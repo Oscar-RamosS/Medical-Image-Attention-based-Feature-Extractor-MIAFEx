@@ -1,6 +1,11 @@
-# Medical Image Attention-based Feature Extractor (MIAFEx) 
-This repository contains the source code of the Medical Image Attention-based Feature Extractor (MIAFEx).  This novel approach enhances feature extraction by refining the classification token ([CLS] token) within the Transformer encoder. This refinement mechanism dynamically adjusts this token using learnable weights, allowing the model to prioritize salient features, crucial for medical image classification. 
+# MIAFEx: An Attention-based Feature Extraction Method for Medical Image Classification
 
+[![Paper DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.knosys.2025.114468-blue)](https://doi.org/10.1016/j.knosys.2025.114468)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# Project status
-The project is currently in preparation for release. We are finalizing the codebase and documentation, and the repository will be made public shortly.
+**MIAFEx** refines the Transformer [CLS] token with learnable weights to produce robust features for medical image classification, particularly effective on small/medium datasets. It ships a full pipeline: supervised training, feature extraction, wrapper-based feature selection (PSO/DE/GA), and classical classifiers (LR/SVM/RF/XGB).
+
+-  **Accepted**: Knowledge-Based Systems — *Accepted on Sep 10, 2025*  
+-  **Repo (as cited in the paper):** https://github.com/Oscar-RamosS/Medical-Image-Attention-based-Feature-Extractor-MIAFEx
+-  **Why MIAFEx?** Outperforms classical descriptors and is competitive vs CNN/ViT, shining on limited data; WFS boosts performance further.
+
