@@ -45,7 +45,7 @@ pip install numpy pandas scikit-learn xgboost matplotlib tqdm pyyaml timm transf
 ```
 
 ## MIAFEx Usage
-1) Train
+## 1) Train
 
 --------
 Edit the configuration block at the top of `train_miafex.py` (paths, num_classes, epochs, etc.). Example:
@@ -67,7 +67,7 @@ This will create in `./outputs/your_dataset/`:
 - training curves: `metrics_curve.pkl`, `loss_and_combined_metrics_curve.png`
 
 
-2) Extract Features
+## 2) Extract Features
 -------------------
 Edit the configuration block at the top of `extract_miafex_features.py` so it points to your test set and the checkpoint saved above. Example:
 ```bash
