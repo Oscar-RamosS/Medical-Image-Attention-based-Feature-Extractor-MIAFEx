@@ -1,7 +1,7 @@
 # MIAFEx: An Attention-based Feature Extraction Method for Medical Image Classification
 
 [![Paper DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.knosys.2025.114468-blue)](https://doi.org/10.1016/j.knosys.2025.114468)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 **MIAFEx** refines the Transformer [CLS] token with learnable weights to produce robust features for medical image classification, particularly effective on small/medium datasets. It ships a full pipeline: supervised training, feature extraction, classical classifiers (LR/SVM/RF/XGB) inference, and wrapper-based feature selection (PSO/DE/GA).
 
