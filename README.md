@@ -117,15 +117,6 @@ Our implementation builds on their design and integrates it into the MIAFEx pipe
 python experiments/run_wfs.py
 ```
 
-### Tips
-
-- Match --num_classes to your dataset
-- In some scenarios, reducing the epoch number is great for computational resources and time savings. In the included dataset, consider a 10-epoch training.
-- For imbalanced datasets: add class weights to the loss or sampler
-- If CUDA runs OOM: reduce --batch_size
-- Swap augmentations in transforms. Compose (resize, normalize, flips, etc.)
-
-
 ### Troubleshooting
 
 - Hidden states missing → ensure output_hidden_states=True (already set in scripts)
