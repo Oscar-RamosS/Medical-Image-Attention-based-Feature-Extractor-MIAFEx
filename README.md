@@ -2,6 +2,8 @@
 
 [![Paper DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.knosys.2025.114468-blue)](https://doi.org/10.1016/j.knosys.2025.114468)
 
+## License
+MIAFEx is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 **MIAFEx** refines the Transformer [CLS] token with learnable weights to produce robust features for medical image classification, particularly effective on small/medium datasets. It ships a full pipeline: supervised training, feature extraction, classical classifiers (LR/SVM/RF/XGB) inference, and wrapper-based feature selection (PSO/DE/GA).
 
